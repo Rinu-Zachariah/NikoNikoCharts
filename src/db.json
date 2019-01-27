@@ -1,0 +1,193 @@
+{
+	"group": [
+	{
+		"name": "Jan K",
+		"mon": 0,
+		"tues": 5,
+		"wed": 5,
+		"thurs": 10,
+		"fri": 10
+	},
+	{
+		"name": "Rinu Z",
+		"mon": 5,
+		"tues": 5,
+		"wed": 5,
+		"thurs": 10,
+		"fri": 10
+	},
+	{
+		"name": "Janik J",
+		"mon": 10,
+		"tues": 10,
+		"wed": 10,
+		"thurs": 10,
+		"fri": 10
+	},
+	{
+		"name": "Name 3",
+		"mon": 0,
+		"tues": 0,
+		"wed": 0,
+		"thurs": "",
+		"fri": 0
+	},
+	{
+		"name": "Name 4",
+		"mon": 5,
+		"tues": "",
+		"wed": "",
+		"thurs": 5,
+		"fri": 5
+	},
+	{
+		"name": "Name 5",
+		"mon": 10,
+		"tues": 5,
+		"wed": 5,
+		"thurs": 10,
+		"fri": 10
+	}
+	],
+	"AvgData": [
+	{
+		"label": "label",
+		"value": "value"
+	},
+	{
+		"label": "Monday",
+		"value": 10
+	},
+	{
+		"label": "Tuesday",
+		"value": 0
+	},
+	{
+		"label": "Wednesday",
+		"value": 10
+	},
+	{
+		"name": "Thursday",
+		"value": 5
+	},
+	{
+		"name": "Friday",
+		"value": 10
+	}
+	],
+	"groups":[
+		{
+			"groupName": "New Group",
+			"users":[
+				{
+					"userName":"Rinu Z",
+					"MoodRegistered":[
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 10
+						},
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 5
+						},
+						{
+							"updated_at": "2019-01-10T09:02:43.000Z",
+							"moodValue": 10
+						}
+					]
+				},
+				{
+					"userName":"Jan J",
+					"MoodRegistered":[
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 10
+						},
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 5
+						},
+						{
+							"updated_at": "2019-01-10T09:02:43.000Z",
+							"moodValue": 10
+						}
+					]
+				},
+				{
+					"userName":"Janik J",
+					"MoodRegistered":[
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 10
+						},
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 5
+						},
+						{
+							"updated_at": "2019-01-10T09:02:43.000Z",
+							"moodValue": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"groupName": "New Group 1",
+			"users":[
+				{
+					"userName":"Rinu Z",
+					"MoodRegistered":[
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 10
+						},
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 5
+						},
+						{
+							"updated_at": "2019-01-10T09:02:43.000Z",
+							"moodValue": 10
+						}
+					]
+				},
+				{
+					"userName":"Jan J",
+					"MoodRegistered":[
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 10
+						},
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 5
+						},
+						{
+							"updated_at": "2019-01-10T09:02:43.000Z",
+							"moodValue": 10
+						}
+					]
+				},
+				{
+					"userName":"Janik J",
+					"MoodRegistered":[
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 10
+						},
+						{
+							"updated_at": "2019-01-01T09:02:43.000Z",
+							"moodValue": 5
+						},
+						{
+							"updated_at": "2019-01-10T09:02:43.000Z",
+							"moodValue": 10
+						}
+					]
+				}
+			]
+		}
+	]
+	
+}

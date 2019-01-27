@@ -1,0 +1,51 @@
+.questionStyles{
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+}
+.emojiSetWidth{
+	width: 200px;
+}
+.emojiSetWidth:hover{
+	cursor:pointer;
+	opacity: 0.2;
+}
+.registeredEmojiStyle{
+	width: 100px;
+}
+.responseArea{
+	text-align:center;
+}
+.tableEmojiStyle{
+	width: 32px;
+}
+.vDataGrpName{
+	border: 1px solid black;
+    padding-top: 31px;
+}
+.setMarginDiv{
+	margin: 16px;
+}
+.boxEffect{
+	border: 1px solid black;
+	padding: 10px;
+	color: black;
+	width:20%;
+	display:inline-block;
+	text-transform: capitalize;
+	margin: 8px;
+	cursor: pointer;
+}
+.spanNameCapitalize{
+	text-transform: capitalize;;
+	display: inline;
+}
+.tableValue{
+	display: inline;
+	width: 30%;
+	padding:20px;
+	border: 1px solid black;
+}
+.marginDiv{
+	margin-bottom: 20px;
+}
