@@ -15,11 +15,10 @@
 	height: 95px;
 }
 .addGroup{
-	border-radius: 100%;
 	height: 85px;
-	width: 85px;
+	width: 100%;
 	text-align: center;
-	padding-bottom: 12px;
+	padding: 0px;
 }
 /*Had we used sass or less, we could have added in nested css
 in this format
@@ -35,6 +34,7 @@ in this format
 }
 */
 .addGroup span{
-	font-size: 3rem;
+	font-family: bebas neue;
+	font-size: 1.2rem;
 	font-weight: bolder;
 }

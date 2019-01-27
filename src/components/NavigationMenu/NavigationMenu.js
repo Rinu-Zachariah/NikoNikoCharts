@@ -41,7 +41,7 @@ class NavigationMenu extends Component {
           {!this.state.collapsed ? <div className="disabled-overlay"></div> : null}
           <Header className="header-container">
             <Row className="navigation-heading">
-              <Col span={23} offset={1}>Niko Niko Charts</Col>
+              <Col span={23} offset={1} className="nikoHeading">Niko Niko Charts</Col>
             </Row>
           </Header>
           <Content className="content-container">

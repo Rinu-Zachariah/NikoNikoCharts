@@ -28,3 +28,7 @@
   height: 34px;
   margin-top: -28%;
 }
+.ant-tabs-nav, .ant-tabs-tab-active {
+  font-family: bebas neue;
+  font-size: 1.2rem;
+}

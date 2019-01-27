@@ -92,7 +92,7 @@ class MoodTracker extends Component {
             {state.showNewGroup && state.activeGroup.users.map((user) => (<div className="boxEffect" onClick={()=> this.showDesiredOutPut(user)}>{user.userName}</div>)) }
             {state.activeUserName === "" && <h3 className="questionStyles">How are you feeling today?</h3>}
             {state.activeUserName && <h3 className="questionStyles">Hi <span className="spanNameCapitalize">{state.activeUserName}.</span> How are you feeling today?</h3>}
-            <div>
+            <div className="emojiDiv">
               <Row className="content" type="flex" align="middle" justify="space-around">
                 <Col className="column-element-padding responseArea" xs={{span: 7, offset: 1}} sm={{span: 7, offset: 1}} md={{span: 7, offset: 1}}>
                   <img className="emojiSetWidth" src={emojiHappy}  alt="happy" onClick={()=> this.recordEmotion(10)} />
@@ -107,8 +107,8 @@ class MoodTracker extends Component {
             </div>
             {state.showFeelingsBar && <div>
               {state.activeUserName === "" && <p className="questionStyles">You are {state.selectedEmojiMood} today!! </p>}
-              {state.activeUserName && !state.errorField && <p className="questionStyles">{state.activeUserName} is {state.selectedEmojiMood} today!! </p>}
-              {state.errorField && state.activeUserName &&  <p className="questionStyles">{state.activeUserName}'s mood has been registered for today!! </p>}
+              {state.activeUserName && !state.errorField && <p className="questionStyles"><span className="spanNameCapitalize">{state.activeUserName}</span> is {state.selectedEmojiMood} today!! </p>}
+              {state.errorField && state.activeUserName &&  <p className="questionStyles"><span className="spanNameCapitalize">{state.activeUserName}</span>'s mood has been registered for today!! </p>}
             </div>}
           </Col>
         </Row>

@@ -121,7 +121,7 @@ class GroupModal extends Component {
     
     return (
       <div>
-        <Button type="primary" className="addGroup" onClick={()=> this.showFormTrue(true)}>+</Button>
+        <Button type="primary" className="addGroup" onClick={()=> this.showFormTrue(true)}>Add Group</Button>
         <Modal
           visible={this.state.visible}
           title="Create New Group"
